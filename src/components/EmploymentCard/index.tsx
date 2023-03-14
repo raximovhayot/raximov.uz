@@ -15,7 +15,7 @@ export const EmploymentCard = ({
       </Heading>
       <VStack alignItems="stretch" spacing={3}>
         <Text>
-          Building Enterprise React Applications for Web, Mobile & TV.
+          Building Enterprise Backend Applications for Web, Mobile & OTHER.
         </Text>
         <HStack justifyContent="space-between" color="gray.100">
           <Link href={link}>{company}</Link>
