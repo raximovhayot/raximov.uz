@@ -1,20 +1,20 @@
 import {Heading, HStack, Link, Text, VStack} from "@chakra-ui/react";
 
-import {Employment} from "../../data/employments";
+import {Education} from "../../data/educations";
 
-export const EmploymentCard = ({
-                                   role,
-                                   info,
-                                   company,
-                                   duration,
-                                   link,
-                                   currently
-                               }: Employment) => {
+export const EducationCard = ({
+                                  faculty,
+                                  info,
+                                  institution,
+                                  link,
+                                  duration,
+                                  currently
+                              }: Education) => {
     return (
         <VStack alignItems="stretch">
             <HStack>
                 <Heading as="h3" size="md">
-                    {role}
+                    {faculty}
                 </Heading>
                 {currently ? <Text textStyle="sectionHeading">Currently</Text> : ""}
             </HStack>
@@ -23,7 +23,7 @@ export const EmploymentCard = ({
                     {info}
                 </Text>
                 <HStack justifyContent="space-between" color="gray.100">
-                    <Link href={link}>{company}</Link>
+                    <Link href={link}>{institution}</Link>
                     <Text>
                         {duration.from} - {duration.to}
                     </Text>
