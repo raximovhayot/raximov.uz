@@ -1,4 +1,4 @@
-# hauptrolle.me
+# raximov.uzinfoweb.uz
 
 This is my website on the internet. It's build with the following technologies:
 
