@@ -13,13 +13,24 @@ export interface Employment {
 export const employments: Array<Employment> = [
     {
         role: "Backend Developer",
+        info: "Building Enterprise Payment System for Web, Mobile & OTHER.",
+        company: "Maroqand LLC",
+        link: "#",
+        currently: false,
+        duration: {
+            from: "Nov 2023",
+            to: "now",
+        },
+    },
+    {
+        role: "Backend Developer",
         info: "Building Enterprise Backend Applications for Web, Mobile & OTHER.",
         company: "zip24",
         link: "https://www.zip24.com/",
-        currently: true,
+        currently: false,
         duration: {
             from: "Jan 2022",
-            to: "now",
+            to: "Nov 2023",
         },
     },
     {
